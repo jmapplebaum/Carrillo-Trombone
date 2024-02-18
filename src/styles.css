@@ -97,7 +97,8 @@ p {
   max-width: 40%;
   padding: none;
 }
-.main-image:hover {
+.main-image:hover,
+.logos:hover {
   transform: none;
 }
 button {
@@ -118,4 +119,21 @@ button:hover {
   color: var(--background-color);
   cursor: pointer;
   text-decoration: none;
+}
+.logos {
+  width: 250px;
+}
+.concerts {
+  display: flex;
+  justify-content: center;
+}
+.concerts p {
+  font-size: small;
+}
+h3 {
+  color: var(--dark-color);
+  font-family: "Noto Serif Display", serif;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 14px;
 }
