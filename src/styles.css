@@ -43,10 +43,13 @@ h3 {
   font-size: 14px;
 }
 p {
+  color: var(--dark-color);
   display: block;
+  font-family: "Georama", sans-serif;
   line-height: 1.5;
   margin: 0 auto;
   max-width: 85%;
+  text-align: center;
 }
 hr {
   color: var(--background-color);
@@ -70,7 +73,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-p,
+
 footer {
   color: var(--dark-color);
   font-family: "Georama", sans-serif;
@@ -96,26 +99,12 @@ button:hover {
   cursor: pointer;
   text-decoration: none;
 }
-.photo-gallery {
-  background-color: var(--light-color);
-  border-radius: 10px;
-  max-width: fit-content;
-  margin: 0 auto;
-}
 
 .container {
   background-color: var(--light-color);
   border-radius: 10px;
   max-width: 50%;
   margin: 0 auto;
-}
-
-.column-one,
-.column-two,
-.column-three,
-.column-four {
-  display: flex;
-  justify-content: center;
 }
 .main-image {
   border: 4px double var(--accent-color);
@@ -138,4 +127,17 @@ button:hover {
 }
 .concerts p {
   font-size: small;
+}
+.photo-gallery {
+  background-color: var(--light-color);
+  border-radius: 10px;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+.column-one,
+.column-two,
+.column-three,
+.column-four {
+  display: flex;
+  justify-content: center;
 }
