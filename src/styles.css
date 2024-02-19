@@ -39,6 +39,7 @@ h3 {
   color: var(--dark-color);
   font-family: "Noto Serif Display", serif;
   margin-bottom: 0px;
+  padding: 3px;
   text-align: center;
   font-size: 14px;
 }
@@ -103,7 +104,7 @@ button:hover {
 .container {
   background-color: var(--light-color);
   border-radius: 10px;
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
 }
 .main-image {
@@ -119,7 +120,8 @@ button:hover {
   transform: none;
 }
 .logos {
-  width: 250px;
+  width: 225px;
+  margin: 0 auto;
 }
 .concerts {
   display: flex;
