@@ -7,14 +7,7 @@
 body {
   background-color: var(--background-color);
 }
-ul {
-  list-style: none;
-  padding: 10px 20px 0px 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-li {
+.header {
   color: var(--dark-color);
   display: inline-block;
   font-family: "Georama", sans-serif;
@@ -121,6 +114,7 @@ button:hover {
   width: 225px;
   margin: 0 auto;
 }
+
 .concerts p {
   font-size: small;
 }
