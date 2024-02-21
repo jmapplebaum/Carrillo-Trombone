@@ -121,23 +121,6 @@ button:hover {
   width: 225px;
   margin: 0 auto;
 }
-.concerts {
-  display: flex;
-  justify-content: center;
-}
 .concerts p {
   font-size: small;
-}
-.photo-gallery {
-  background-color: var(--light-color);
-  border-radius: 10px;
-  max-width: fit-content;
-  margin: 0 auto;
-}
-.column-one,
-.column-two,
-.column-three,
-.column-four {
-  display: flex;
-  justify-content: center;
 }
