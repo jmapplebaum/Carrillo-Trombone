@@ -112,9 +112,9 @@ button:hover {
 }
 .logos {
   width: 225px;
-  margin: 0 auto;
 }
 
 .concerts p {
   font-size: small;
+  margin-bottom: 8px;
 }
