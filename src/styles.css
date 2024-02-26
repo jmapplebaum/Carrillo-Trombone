@@ -103,7 +103,7 @@ button:hover {
   border-radius: 20px;
   display: block;
   margin: 0 auto;
-  max-width: 40%;
+  max-width: 525px;
   padding: none;
 }
 .main-image:hover,
@@ -117,4 +117,9 @@ button:hover {
 .concerts p {
   font-size: small;
   margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .main-image {
+    max-width: 300px;
+  }
 }
