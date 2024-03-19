@@ -26,12 +26,16 @@ body {
 }
 h1,
 h2 {
-  color: var(--background-color);
+  color: var(--dark-color);
   font-family: "Noto Serif Display", serif;
   font-size: 96px;
   font-weight: 400;
   margin-bottom: 5px;
   text-align: center;
+}
+.hero h1,
+.hero h2 {
+  color: var(--background-color);
 }
 h2 {
   font-size: 48px;
@@ -83,24 +87,33 @@ footer {
   padding: 20px;
   text-align: center;
 }
-button {
-  background-color: var(--background-color);
-  border: 1px solid var(--accent-color);
+.hero a,
+.lessons-button {
   border-radius: 3px;
   box-shadow: 1px 1px 1px var(--dark-color);
   color: var(--accent-color);
-  display: block;
-  margin: auto;
-  padding: 15px;
+  padding: 15px 10px;
+  width: 125px;
   text-decoration: none;
   transition: 150ms ease-in-out;
 }
-.contact-button:hover,
-button:hover {
+.hero a {
+  background-color: var(--background-color);
+  border: 1px solid var(--accent-color);
+  display: block;
+  margin: auto;
+}
+.lessons-button {
   background-color: var(--accent-color);
   color: var(--background-color);
+  display: block;
+  text-align: center;
+}
+.lessons-button:hover,
+.hero a:hover {
   cursor: pointer;
   text-decoration: none;
+  transform: scale(1.12, 1.12);
 }
 
 .wrapper {
@@ -122,11 +135,14 @@ button:hover {
 }
 .logos {
   max-width: 225px;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 50px;
 }
 
 .concerts p {
   font-size: small;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 @media (max-width: 768px) {
   h1 {
@@ -142,7 +158,10 @@ button:hover {
   .main-image {
     max-width: 80%;
   }
-  .instagram-media {
-    display: none;
+  img:hover {
+    transform: none;
+  }
+  .lessons-button {
+    margin: 0 auto;
   }
 }
