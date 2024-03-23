@@ -136,8 +136,8 @@ footer {
   transform: none;
 }
 .about-paragraph {
+  font-size: 18px;
   text-align: left;
-
   padding: 125px 0;
 }
 .logos {
